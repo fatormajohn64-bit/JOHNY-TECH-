@@ -127,7 +127,7 @@ st.markdown("""
         font-weight: bold;
     }
 </style>
-""", unsafe_allowed_html=True)
+""", unsafe_allow_html=True)
 
 # ====================================================================
 # 2. INITIALIZE COGNITIVE DATA MATRIX & STATE
@@ -208,14 +208,14 @@ st.markdown(f"""
         </div>
     </div>
 </div>
-""", unsafe_allowed_html=True)
+""", unsafe_allow_html=True)
 
-st.markdown(f"<div class='directive-label'>[ {status_label} ] — AWAITING COGNITIVE INPUT...</div>", unsafe_allowed_html=True)
+st.markdown(f"<div class='directive-label'>[ {status_label} ] — AWAITING COGNITIVE INPUT...</div>", unsafe_allow_html=True)
 
 # Audio Matrix Input Widget (No Typing Allowed)
-st.markdown("<p style='text-align: center; color: #66FCF1; font-size:12px;'>👇 ENGAGE AUDIO TRANSLINK MODULE 👇</p>", unsafe_allowed_html=True)
+st.markdown("<p style='text-align: center; color: #66FCF1; font-size:12px;'>👇 ENGAGE AUDIO TRANSLINK MODULE 👇</p>", unsafe_allow_html=True)
 
-# Using speech_to_text from the plugin you just fixed
+# Using speech_to_text from the plugin
 voice_input = speech_to_text(
     language='en',
     start_prompt="🔴 INITIALIZE UPLINK WAVE",
@@ -258,5 +258,4 @@ st.markdown("""
     <div class="metric-row"><span>BANDWIDTH</span><span class="metric-value-cyan">STABLE</span></div>
     <div class="metric-row"><span>COGNITIVE ENGINE</span><span class="metric-value-cyan">LLAMA-3.3-GROQ</span></div>
 </div>
-""", unsafe_allowed_html=True)
-        
+""", unsafe_allow_html=True)
