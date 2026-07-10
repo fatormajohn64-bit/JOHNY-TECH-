@@ -5,3 +5,6 @@ streamlit-mic-recorder
 gTTS
 pyttsx3
 SpeechRecognition
+streamlit
+streamlit-mic-recorder
+groq
