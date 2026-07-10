@@ -1,0 +1,7 @@
+streamlit>=1.35.0
+streamlit-mic-recorder>=0.0.8
+streamlit
+streamlit-mic-recorder
+gTTS
+pyttsx3
+SpeechRecognition
